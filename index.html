@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox-like Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Roblox-like Games</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Profiles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="game-list">
+            <h2>Featured Games</h2>
+            <div class="game-card" onclick="viewGame('Game 1')">
+                <img src="game1-thumbnail.jpg" alt="Game 1">
+                <h3>Game 1</h3>
+                <p>Short description of Game 1.</p>
+            </div>
+            <div class="game-card" onclick="viewGame('Game 2')">
+                <img src="game2-thumbnail.jpg" alt="Game 2">
+                <h3>Game 2</h3>
+                <p>Short description of Game 2.</p>
+            </div>
+            <div class="game-card" onclick="viewGame('Game 3')">
+                <img src="game3-thumbnail.jpg" alt="Game 3">
+                <h3>Game 3</h3>
+                <p>Short description of Game 3.</p>
+            </div>
+        </section>
+
+        <section id="user-profiles">
+            <h2>User Profiles</h2>
+            <div class="profile-card">
+                <img src="user1-avatar.jpg" alt="User 1">
+                <h3>User 1</h3>
+                <p>Favorite Game: Game 1</p>
+            </div>
+            <div class="profile-card">
+                <img src="user2-avatar.jpg" alt="User 2">
+                <h3>User 2</h3>
+                <p>Favorite Game: Game 2</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Roblox-like Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
